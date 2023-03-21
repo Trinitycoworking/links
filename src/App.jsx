@@ -19,7 +19,10 @@ function App() {
       <ul className='buttons-container'>
         {options.map((option) => (
           <li className='button-box'>
-            <a target='_blank' href={option.link}>{option.icon}{option.name}</a>
+            <a target='_blank' href={option.link}>
+              {option.icon}
+              <span>{option.name}</span>
+            </a>
           </li>
         ))}
       </ul>
