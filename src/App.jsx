@@ -8,7 +8,7 @@ import './App.sass'
 function App() {
   let options = [
     {name: 'DRE.DEV', icon: <FaInstagram />, link: 'https://www.instagram.com/dredeco.dev/'},
-    {name: 'Portfólio', icon: <FaAddressCard />, link: 'https://dredeco.github.io/portfolio-page/'},
+    {name: 'Portfólio', icon: <FaAddressCard />, link: 'https://dredeco.github.io/portfolio/'},
     {name: 'Whatsapp', icon: <FaWhatsapp />, link: 'https://wa.me/5522997971144'},
     {name: 'Linkedin', icon: <FaLinkedinIn />, link: 'https://www.linkedin.com/in/andrefersouza/'},
   ]
