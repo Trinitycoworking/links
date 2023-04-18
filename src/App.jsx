@@ -1,21 +1,23 @@
-import {FaWhatsapp, FaInstagram, FaLinkedinIn, FaAddressCard} from 'react-icons/fa'
+import {FaWhatsapp, FaInstagram, FaSearch, FaAddressCard} from 'react-icons/fa'
 
-import UserImage from './assets/userq.jpg'
+import UserImage from './assets/slogo2.png'
 import Logo from './assets/logo.png'
 
 import './App.sass'
 
 function App() {
   let options = [
-    {name: 'DRE.DEV', icon: <FaInstagram />, link: 'https://www.instagram.com/dredeco.dev/'},
-    {name: 'Portfólio', icon: <FaAddressCard />, link: 'https://dredeco.github.io/portfolio/'},
+    {name: 'Instagram', icon: <FaInstagram />, link: 'https://www.instagram.com/dredeco.dev/'},
+    {name: 'Site', icon: <FaAddressCard />, link: 'https://dredeco.github.io/portfolio/'},
     {name: 'Whatsapp', icon: <FaWhatsapp />, link: 'https://wa.me/5522997971144'},
-    {name: 'Linkedin', icon: <FaLinkedinIn />, link: 'https://www.linkedin.com/in/andrefersouza/'},
+    {name: 'Consultar disponibilidade', icon: <FaSearch />, link: 'https://www.linkedin.com/in/andrefersouza/'},
   ]
 
   return (
     <div className="App">
-      <img src={UserImage} className='user-image' />
+      <div className='image-section'>
+        <img src={UserImage} className='user-image' />
+      </div>
       <ul className='buttons-container'>
         {options.map((option) => (
           <li className='button-box'>
