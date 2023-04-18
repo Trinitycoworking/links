@@ -7,10 +7,10 @@ import './App.sass'
 
 function App() {
   let options = [
-    {name: 'Instagram', icon: <FaInstagram />, link: 'https://www.instagram.com/dredeco.dev/'},
-    {name: 'Site', icon: <FaAddressCard />, link: 'https://dredeco.github.io/portfolio/'},
-    {name: 'Whatsapp', icon: <FaWhatsapp />, link: 'https://wa.me/5522997971144'},
-    {name: 'Consultar disponibilidade', icon: <FaSearch />, link: 'https://www.linkedin.com/in/andrefersouza/'},
+    {name: 'Instagram', icon: <FaInstagram />, link: 'https://www.instagram.com/trinitycoworking/'},
+    {name: 'Site', icon: <FaAddressCard />, link: 'https://trinitycoworking.github.io/site/'},
+    {name: 'Whatsapp', icon: <FaWhatsapp />, link: 'https://wa.me/5522998727548'},
+    {name: 'Consultar disponibilidade', icon: <FaSearch />, link: 'https://trinitycoworking.github.io/Trinity_Horarios/'},
   ]
 
   return (
