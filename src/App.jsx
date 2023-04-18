@@ -28,7 +28,7 @@ function App() {
           </li>
         ))}
       </ul>
-      <a href={options[1].link} target='_blank'>
+      <a href='https://dredeco.github.io/portfolio' target='_blank'>
       <img src={Logo} className='logo'/>
       </a>
     </div>
